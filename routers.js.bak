@@ -1,0 +1,15 @@
+import Home from './components/home.vue'
+import Lala from './components/lala.vue'
+const routers = [{
+	path: '/HelloWorld',
+	name: 'HelloWorld',
+	component: Home
+}, {
+	path: '/',
+	component: Home
+},{
+	path: '/lala',
+	component: Lala
+},
+]
+export default routers 
